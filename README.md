@@ -4,11 +4,19 @@
 
 <head>
 
-  <title>Kizuna Discoveries - Explore Japan</title>
+  <title>Kizuna Discoveries - Tours & Activities in Tokyo</title>
 
   <style>
 
     /* CSS styles go here */
+
+    * {
+
+      box-sizing: border-box;
+
+    }
+
+    
 
     body {
 
@@ -18,6 +26,8 @@
 
       padding: 0;
 
+      background-color: #f5f5f5;
+
     }
 
     header {
@@ -26,47 +36,65 @@
 
       color: #fff;
 
-      padding: 20px;
+      padding: 40px;
 
       text-align: center;
 
     }
 
-    nav ul {
+    h1 {
 
-      list-style-type: none;
+      font-size: 36px;
 
-      margin: 0;
-
-      padding: 0;
+      margin-bottom: 20px;
 
     }
 
-    nav li {
+    p {
 
-      display: inline;
+      font-size: 18px;
 
-      margin-right: 10px;
-
-    }
-
-    nav a {
-
-      color: #fff;
-
-      text-decoration: none;
+      margin-bottom: 40px;
 
     }
 
-    main {
+    .tours {
 
-      padding: 20px;
+      display: flex;
+
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      margin: 0 -20px;
 
     }
 
-    h2 {
+    .tour {
 
-      color: #333;
+      flex: 0 0 33.33%;
+
+      padding: 0 20px;
+
+      text-align: center;
+
+      margin-bottom: 40px;
+
+    }
+
+    .tour img {
+
+      width: 100%;
+
+      max-width: 300px;
+
+      border-radius: 10px;
+
+      margin-bottom: 20px;
+
+    }
+
+    .tour h3 {
 
       font-size: 24px;
 
@@ -74,71 +102,11 @@
 
     }
 
-    p {
+    .tour p {
+
+      font-size: 16px;
 
       line-height: 1.5;
-
-    }
-
-    .destinations {
-
-      display: flex;
-
-      flex-wrap: wrap;
-
-      margin-top: 20px;
-
-    }
-
-    .destination {
-
-      flex: 0 0 33.33%;
-
-      padding: 10px;
-
-    }
-
-    .destination img {
-
-      max-width: 100%;
-
-    }
-
-    .contact-form {
-
-      margin-top: 20px;
-
-    }
-
-    .contact-form label,
-
-    .contact-form input,
-
-    .contact-form textarea,
-
-    .contact-form button {
-
-      display: block;
-
-      width: 100%;
-
-      box-sizing: border-box;
-
-      margin-bottom: 10px;
-
-    }
-
-    .contact-form button {
-
-      background-color: #2c3e50;
-
-      color: #fff;
-
-      padding: 10px 20px;
-
-      border: none;
-
-      cursor: pointer;
 
     }
 
@@ -154,6 +122,14 @@
 
     }
 
+    footer p {
+
+      font-size: 14px;
+
+      margin: 0;
+
+    }
+
   </style>
 
 </head>
@@ -164,99 +140,43 @@
 
     <h1>Kizuna Discoveries</h1>
 
-    <nav>
-
-      <ul>
-
-        <li><a href="#">Home</a></li>
-
-        <li><a href="#">Destinations</a></li>
-
-        <li><a href="#">Tours</a></li>
-
-        <li><a href="#">Contact</a></li>
-
-      </ul>
-
-    </nav>
+    <p>We offer Tours & Activities in Tokyo</p>
 
   </header>
 
-  <main>
+  <section class="tours">
 
-    <section>
+    <div class="tour">
 
-      <h2>About Kizuna Discoveries</h2>
+      <img src="tokyotour.jpg" alt="City Tours">
 
-      <p>Welcome to Kizuna Discoveries! We offer unique and authentic travel experiences in Japan. Immerse yourself in Japan's rich culture, breathtaking nature, and unforgettable traditions.</p>
+      <h3>City Tours</h3>
 
-    </section>
+      <p>Explore the vibrant neighborhoods, iconic landmarks, and hidden gems of Tokyo on our city tours.</p>
 
-    <section>
+    </div>
 
-      <h2>Featured Destinations</h2>
+    <div class="tour">
 
-      <div class="destinations">
+      <img src="sightseeing-tour.jpg" alt="Sightseeing Tours">
 
-        <div class="destination">
+      <h3>Sightseeing Tours</h3>
 
-          <img src="tokyo.jpg" alt="Tokyo">
+      <p>Discover the rich cultural heritage, historic sites, and breathtaking views on our sightseeing tours in Tokyo.</p>
 
-          <h3>Tokyo</h3>
+    </div>
 
-          <p>Experience the bustling city life, vibrant neighborhoods, and historic landmarks of Tokyo.</p>
+    <div class="tour">
 
-        </div>
+      <img src="private-tour.jpg" alt="Private Tours">
 
-        <div class="destination">
+      <h3>Private Tours</h3>
 
-          <img src="kyoto.jpg" alt="Kyoto">
+      <p>Enjoy a personalized experience with our knowledgeable guides on our private tours tailored to your interests.</p>
 
-          <h3>Kyoto</h3>
+    </div>
 
-          <p>Discover the beauty of Kyoto's ancient temples, traditional gardens, and captivating Geisha culture.</p>
-
-        </div>
-
-        <div class="destination">
-
-          <img src="osaka.jpg" alt="Osaka">
-
-          <h3>Osaka</h3>
-
-          <p>Indulge in Osaka's street food, lively entertainment districts, and historic landmarks.</p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <section>
-
-      <h2>Contact Us</h2>
-
-      <form class="contact-form">
-
-        <label for="name">Name:</label>
-
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send Message</button>
-
-      </form>
-
-    </section>
-
-  </main>
+  </section>
 
   <footer>
 
@@ -269,8 +189,7 @@
 </html>
 
 
-  
- 
+      
 
 
 
