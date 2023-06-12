@@ -1,194 +1,54 @@
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/tourest)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/tourest?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/tourest?style=social)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/9ts7JnruWg4?style=social)](https://youtu.be/9ts7JnruWg4)
 
-    Tourest - Explore the World
+  <br />
+  <br />
 
+  <h2 align="center">Tourest - Travel website</h2>
 
+  Tourest is fully responsive travel website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-#.......... HEADER ..........#
+  <a href="https://codewithsadee.github.io/tourest/"><strong>➥ Live Demo</strong></a>
 
-Tourest
+</div>
 
-aria-label = Toggle Menu
-<ion-icon name="menu-outline"></ion-icon>
-<ion-icon name="close-outline"></ion-icon>
+<br />
 
-Home
-About Us
-Tours
-Destinations
-Blog
-Contact Us
+### Demo Screeshots
 
-Booking Now
+![Tourest Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
+### Prerequisites
 
+Before you begin, ensure you have met the following requirements:
 
-#.......... HERO ..........#
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-alt = Vector Shape
+### Run Locally
 
-Explore Your Travel
+To run **Tourest** locally, run this command on your git bash:
 
-Trusted Travel Agency
+Linux and macOS:
 
-I travel not to go anywhere, but to go. I travel for travel's sake the great affair is to move.
+```bash
+sudo git clone https://github.com/codewithsadee/tourest.git
+```
 
-Contact Us
-Learn More
+Windows:
 
-alt = hero banner
+```bash
+git clone https://github.com/codewithsadee/tourest.git
+```
 
+### Contact
 
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
-#.......... DESTINATION ..........#
+### License
 
-Destinations
-
-Choose Your Place
-
-alt = Malé, Maldives
-Malé
-Maldives
-
-alt = Bangkok, Thailand
-Bangkok
-Thailand
-
-alt = Kuala Lumpur, Malaysia
-Kuala Lumpur
-Malaysia
-
-alt = Kathmandu, Nepal
-Kathmandu
-Nepal
-
-alt = Jakarta, Indonesia 
-Jakarta
-Indonesia
-
-
-
-#.......... POPULAR ..........#
-
-Featured Tours
-
-Most Popular Tours
-
-alt = Kuala Lumpur, Malaysia
-
-<ion-icon name="time-outline"></ion-icon>
-12 Days
-
-From $50.00
-
-<ion-icon name="star"></ion-icon>
-<ion-icon name="star-outline"></ion-icon>
-(2)
-
-A good traveler has no fixed plans and is not intent on arriving.
-Kuala Lumpur, Malaysia
-
-
-
-#.......... ABOUT ..........#
-
-About Us
-
-Explore all tour of the world with us.
-
-Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-
-<ion-icon name="compass"></ion-icon>
-
-Tour guide
-
-Lorem Ipsum available, but the majority have suffered alteration in some.
-
-<ion-icon name="briefcase"></ion-icon>
-Friendly price
-
-<ion-icon name="umbrella"></ion-icon>
-Reliable tour
-
-Booking Now
-
-alt = About banner
-
-
-
-#.......... BLOG ..........#
-
-From The Blog Post
-
-Latest News & Articles
-
-alt = A good traveler has no fixed plans and is not intent on arriving.
-
-<ion-icon name="time-outline"></ion-icon>
-04 Dec
-
-alt = Jony bristow
-
-Jony bristow
-Admin
-
-10:30 AM
-
-A good traveler has no fixed plans and is not intent on arriving.
-
-Read More 
-<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-
-
-
-#.......... FOOTER ..........#
-
-Top destination
-
-Indonesia, Jakarta
-Maldives, Malé
-Australia, Canberra
-Thailand, Bangkok
-Morocco, Rabat
-
-Categories
-
-Travel
-Lifestyle
-Fashion
-Education
-Food & Drink
-
-Quick links
-
-About
-Contact
-Tours
-Booking
-Terms & Conditions
-
-Get a newsletter
-
-For the latest deals and tips, travel no further than your inbox
-
-placeholder = Email address
-
-Subscribe
-
-Tourest
-
-&copy; 2022 codewithsadee. All Rights Reserved
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-<ion-icon name="logo-google"></ion-icon>
-
-
-
-#.......... GO TO TOP ..........#
-
-aria-label = Go To Top
-
-<ion-icon name="chevron-up-outline"></ion-icon>
+This project is **free to use** and does not contains any license.
